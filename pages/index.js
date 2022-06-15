@@ -9,9 +9,13 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
 			<section className={utilStyles.headingMd}>
-				<p>[Some Introduction]</p>
 				<p>
-					(This is a sample website)
+					Oh dear Coffee! Nothing has ever awakened my senses more than your
+					sweet aroma. Who can resist your cocoa flavor, your nutty texture,
+					and the happy feeling at every sip?
+				</p>
+				<p>
+					Sadly, you cause me heartburn 😔
 				</p>
 			</section>
 		</Layout>

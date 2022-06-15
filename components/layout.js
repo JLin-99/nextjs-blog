@@ -4,14 +4,13 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Avoiding Coffee';
+const name = 'AvoidingCoffee';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<link rel="icon" href="/favicon.ico" />
 				{/* `meta` tags used to describe a page's content */}
 				<meta
 					name="description"
@@ -31,7 +30,7 @@ export default function Layout({ children, home }) {
 					<>
 						<Image
 							priority
-							src="/images/profile.jpg"
+							src="/images/coffee.gif"
 							className={utilStyles.borderCircle}
 							height={144}
 							width={144}
@@ -45,7 +44,7 @@ export default function Layout({ children, home }) {
 							<a>
 								<Image
 									priority
-									src="/images/profile.jpg"
+									src="/images/coffee.gif"
 									className={utilStyles.borderCircle}
 									height={108}
 									width={108}
