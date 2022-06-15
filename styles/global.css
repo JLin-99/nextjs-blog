@@ -7,6 +7,7 @@ body {
 	line-height: 1.6;
 	font-size: 18px;
 	background-color: #ece0d1;
+	color: #3A3845;
 }
 
 * {
@@ -14,11 +15,12 @@ body {
 }
 
 a {
-	color: #0070f3;
+	color: #269BB9;
 	text-decoration: none;
 }
 
 a:hover {
+	color: #0070f3;
 	text-decoration: underline;
 }
 
