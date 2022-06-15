@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
 					and the happy feeling at every sip?
 				</p>
 				<p>
-					Sadly, you cause me heartburn 😔
+					Sadly, you cause me heartburn 💔
 				</p>
 			</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
