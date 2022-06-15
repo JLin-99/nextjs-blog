@@ -1,5 +1,5 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'When to Use Static Generation v.s. Server-Side Rendering'
 date: '15-06-2022'
 ---
 
@@ -16,4 +16,4 @@ Ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the
 
 On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe the page shows frequently updated data, and the content changes on every request.
 
-In that case, use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or skip pre-rendering and use client-side JavaScript to populate data.
+In that case, use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or skip pre-rendering and use client-Side JavaScript to populate data.
